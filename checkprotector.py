@@ -11,7 +11,6 @@ from ghidra.util.task import TaskMonitor
 CC_THREASHOLD = 10
 
 cyclomaticComplexity = CyclomaticComplexity()
-listing = currentProgram.getListing()
 
 refs = getReferencesTo(currentAddress)
 
